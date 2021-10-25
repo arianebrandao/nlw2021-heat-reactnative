@@ -16,7 +16,7 @@ type MessageProps = {
   }
 }
 
-type Props = {
+interface Props {
   data: MessageProps;
 }
 
@@ -25,20 +25,20 @@ export function Message({ data }: Props) {
     <MotiView
       from={{ opacity: 0, translateY: -50 }}
       animate={{ opacity: 1, translateY: 50 }}
-      transition={{ type:'timing', duration: 700 }}
+      transition={{ type: 'timing', duration: 700 }}
       style={styles.container}
     >
       <Text style={styles.message}>
-        Texto da mensagem
+        {data.text}
       </Text>
 
       <View style={styles.footer}>
         <UserPhoto
-          imageUri='https://github.com/arianebrandao.png'
+          imageUri={data.user.avatar_url}
           size='SMALL'
         />
 
-        <Text style={styles.userName}>Nome do usuário</Text>
+        <Text style={styles.userName}>{data.user.name}</Text>
       </View>
     </MotiView>
   );

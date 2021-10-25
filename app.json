@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "nlw-heat-2021-app",
+    "slug": "nlw-heat-2021-app",
     "version": "1.0.0",
+    "scheme": "nlw-heat-2021-app",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#121214"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +23,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#121214"
       }
     },
     "web": {
