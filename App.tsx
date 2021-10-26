@@ -22,7 +22,7 @@ export default function App() {
       <StatusBar
         style="light"
         translucent
-        backgroundColor="transparent"
+        backgroundColor="#121214"
       />
       <Home />
     </AuthProvider>

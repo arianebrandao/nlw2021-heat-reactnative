@@ -46,8 +46,6 @@ function AuthProvider({ children }: AuthProviderProps) {
   const [isSigninIn, setIsSigninIn] = useState(true)
   const [user, setUser] = useState<User | null>(null)
 
-
-
   async function signIn() {
     try {
       setIsSigninIn(true)
@@ -60,7 +58,7 @@ function AuthProvider({ children }: AuthProviderProps) {
 
         api.defaults.headers.common['Authorization'] = `Bearer ${token}`;
         await AsyncStorage.setItem(USER_STORAGE, JSON.stringify(user))
-        await AsyncStorage.setItem(TOKEN_STORAGE, JSON.stringify(token))
+        await AsyncStorage.setItem(TOKEN_STORAGE, token)
 
         setUser(user)
       }
