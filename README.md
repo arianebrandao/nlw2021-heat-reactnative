@@ -5,11 +5,7 @@
 <br>
 
 <p align="center">
-  <img alt="DO WHILE 2021" src=".github/app.png" width="100%">
-</p>
-
-<p align="center">
-  <img alt="DO WHILE 2021" src=".github/app2.png" width="100%">
+  <img alt="DO WHILE 2021" src=".github/app.png" height="100%">
 </p>
 
 ## 🚀 NLW Heat - DO WHILE
@@ -47,7 +43,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Instale as dependências com `yarn`
 - Inicie o servidor com `expo start`
 
-Agora você pode rodar a aplicação no emulador de android/ios ou pelo seu dispositivo físico utilizando o [Expo Go](https://expo.dev/client).
+Agora você pode rodar a aplicação no __emulador de android/ios__ ou pelo seu __dispositivo físico utilizando o [Expo Go](https://expo.dev/client)__.
 
 ** OBS: Essa aplicação depende do [back-end desenvolvido em node](https://github.com/arianebrandao/nlw2021-heat-node) estar rodando em [`localhost:4000`](http://localhost:4000).
 
